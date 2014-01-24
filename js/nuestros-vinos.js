@@ -500,7 +500,14 @@
 
 
 
+    if ($(window).width() <= 568) {
+        $('.el-origen .contenedor article .scroll').removeClass('scroll').addClass('content-mobile');
+        $('.la-creacion .contenedor article .scroll').removeClass('scroll').addClass('content-mobile');
+    }
 
+    $("#menu").mmenu({
+        classes: "mm-slide"
+    });
 
 })(window);
 

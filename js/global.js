@@ -182,14 +182,6 @@
 		}
 
 	})
-	
-
-	if ($(window).width() <= 568) {
-            // alert($(window).width());
-            // alert($(window).height());
-            $('.el-origen .contenedor article .scroll').removeClass('scroll').addClass('content-mobile');
-            $('.la-creacion .contenedor article .scroll').removeClass('scroll').addClass('content-mobile');
-        }
 
 	$(window).resize(function(){
 		minHeight();
