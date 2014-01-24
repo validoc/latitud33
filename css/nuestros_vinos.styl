@@ -1,0 +1,283 @@
+@import 'nib'
+
+desktopNote = "only screen and (min-width: 1024px)"
+desktop 	= "only screen and (min-width: 960px)"
+ipadP 		= "only screen and (min-width: 768px)"
+tablet 		= "only screen and (min-width: 600px)"
+iphone5L 	= "only screen and (min-width: 568px)"
+iphone4L 	= "only screen and (min-width: 420px)"
+iphoneP 	= "only screen and (min-width: 320px)"
+
+header
+	nav
+		@media iphoneP
+			display none
+		@media ipadP
+			display block 
+.nuestros-vinos
+	background-image url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg")
+	background-repeat no-repeat
+	background-attachment fixed
+	background-size cover
+	
+	.latitud
+		@media iphoneP
+			margin-top 0
+			height 1114px
+		@media tablet
+			margin-top 30px
+		.contenedor
+			background url("./assets/nuestros-vinos/bg-contenedor-latitud.png") no-repeat top right
+			@media iphoneP
+				background-image none
+				box-sizing: border-box;
+				width 100%
+			@media ipadP
+				background url("./assets/nuestros-vinos/bg-contenedor-latitud.png") no-repeat top right
+			.banner
+				height 108px 
+				position absolute
+				right 0
+				width 100% 
+				@media iphoneP
+					background url("../img/responsive/nuestros_vinos_top.jpg") no-repeat top right
+					background-size cover
+					display block
+				@media tablet
+					display none 
+			.bloque1
+				@media iphoneP
+					box-sizing: border-box;
+					top 108px
+					width 100%
+				@media ipadP
+					top 190px
+					width 379px
+				p
+					@media iphoneP
+						margin 0 0 15px
+					@media ipadP
+						margin 0 
+				.ir-abajo
+					@media iphoneP
+						position static
+					@media ipadP
+						position absolute
+			.banner2
+				height 255px
+				position absolute
+				right 0
+				top 419px
+				width 100% 
+				@media iphoneP
+					background url("../img/responsive/latitud33.jpg") no-repeat top right
+					background-size cover
+					display block
+				@media tablet
+					display none
+			.banner3
+				height 246px
+				position absolute
+				right 0
+				top 868px
+				width 100% 
+				@media iphoneP
+					background url("../img/responsive/latitud33_2.jpg") no-repeat top right
+					background-size cover
+					display block
+				@media tablet
+					display none
+			.bloque2
+				@media iphoneP
+					box-sizing: border-box;
+					right 0
+					top 674px
+					width 100%
+				@media ipadP
+					top 615px
+					width 600px
+			.bloqueBlanco
+				@media iphoneP
+					padding 25px 18px
+				@media ipadP
+					padding 28px 
+			.ir-abajo
+				@media iphoneP
+					position static 
+					margin 25px 0 0
+				@media ipadP
+					position absolute 
+					margin 0
+	.el-origen
+		@media iphoneP
+			background #FFF
+			color #000 
+			height 1890px 
+		@media tablet
+			height: 768px;
+		.contenedor
+			@media iphoneP
+				height 1890px
+				padding 0
+			@media ipadP
+				padding 0 10px
+				height: 768px;
+			article
+				@media iphoneP
+					background #FFF
+					color #000  
+					width 100% 
+					// position absolute
+				@media ipadP
+					width 31.3%
+				h3
+					color #FFF
+					background #BE2F2A
+					display inline-block
+					padding 5px 12px   
+				img
+					width 100%
+	.la-creacion
+		@media iphoneP
+			background #FFF 
+			color #000 
+			height: 950px;
+		@media ipadP
+			background-image: url("./assets/nuestros-vinos/bg-la-creacion.jpg");
+			color #FFF 
+			height: 578px;
+		.contenedor
+			@media iphoneP
+				height: 950px;
+			@media ipadP
+				height: 578px;
+			article
+				@media iphoneP
+					b
+					width 100% 
+				@media ipadP
+					width 40% 
+				.ir-abajo
+					@media iphoneP
+						position static 
+						margin 25px 0 0
+					@media ipadP
+						position absolute 
+						margin 0
+			h2
+				@media iphoneP
+					border-bottom 2px solid #BC180C
+					line-height 100%
+					padding-bottom 10px  
+				@media ipadP
+					border none
+					padding-bottom 0
+				 
+	.la-creacion-banner
+		background-image: url("../img/responsive/la-creacion_320.jpg");
+		background-position: right top;
+		background-size  cover
+		height 208px 
+		@media iphoneP
+			display block
+		@media ipadP
+			display none 
+	.el-vino
+		@media iphoneP
+			background none
+			height: 900px
+		@media ipadP
+			background: url("./assets/nuestros-vinos/bg-el-vino.jpg") right top no-repeat;
+			height: 1100px
+		.contenedor
+			@media iphoneP
+				padding 0  
+			@media ipadP
+				padding 0 10px 
+			.bloqueBlanco	
+				@media iphoneP
+					padding 25px 18px
+					width: 100%;
+					box-sizing: border-box;
+				@media ipadP
+					padding: 28px
+					width: 52%;
+				h2
+					@media iphoneP
+						border-bottom 2px solid #BC180C
+						line-height 100%
+						padding-bottom 10px  
+					@media ipadP
+						border none
+						padding-bottom 0
+				.ir-abajo
+					@media iphoneP
+						position static 
+						margin 25px 0 0
+					@media ipadP
+						position absolute 
+						margin 0 
+		.contenedorDetalleVino 
+			@media iphoneP
+				display none 
+			@media ipadP
+				display block 
+		nav
+			@media iphoneP
+				display none
+			@media ipadP
+				display block
+		figure
+			text-align center
+			margin 20px 0 0  
+	.el-vino-banner
+		background url('./assets/nuestros-vinos/bg-el-vino.jpg') 
+		background-size  cover
+		height 254px 
+		@media iphoneP
+			display block
+		@media ipadP
+			display none
+		 
+				
+footer
+	.contenedor
+		nav
+			@media iphoneP
+				float none
+			@media ipadP
+				float right
+				
+			ul.links
+				a
+					@media iphoneP
+						font-size 10px
+					@media ipadP 
+						font-size 11px
+			.social
+				@media iphoneP
+					display none 
+				@media ipadP
+					display block
+		p
+			@media iphoneP
+				font-size 8px 
+				text-transform uppercase 
+			@media ipadP
+				font-size 11px
+				text-transform none 
+	
+.content-mobile
+	padding 25px 18px
+.mobileoff
+	@media iphoneP
+		display none
+	@media ipadP
+		display block
+.mobileon
+	@media iphoneP
+		display block
+	@media ipadP
+		display none
+	
+					

@@ -1,0 +1,318 @@
+body{
+	background-image: url("./assets/bg-legales.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #272728;
+}
+
+.contentPage.principal .info-container{
+	background-color: #ebebeb;
+	padding:30px 20px;
+	max-width: 984px;
+}
+
+/*.contentPage.principal h2{
+	font-family: "neutraface2displaybold";
+	font-size: 22px;
+	line-height: 38px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #000;
+	padding: 0 15px;
+	margin: 0 0 40px;
+	font-weight: normal;
+}*/
+
+.contentPage.principal h2{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.articles{
+	margin: 0 auto;
+}
+
+.articles article{
+	float: left;
+	width: 30%;
+	margin: 0 1%;
+	background-color: #fff;
+	margin-bottom: 25px;
+	border-right: 2px solid #dedede;
+	border-bottom: 2px solid #dedede;
+}
+
+.articles .img-video-container img{
+	width: 100%;
+	height: auto;
+	float: left;
+	border: none;
+	border-top: 4px solid #000;
+}
+
+.img-video-container{
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.articles article h3{
+	padding: 0 1.5%;
+	margin-bottom: 3px;
+
+}
+
+.articles article h3 a{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.articles article h3 span{
+	font-size: 22px;
+}
+
+.articles article h3 a{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 19px;
+}
+
+.articles article h3 span{
+	font-size: 17px;
+}
+
+.share-container{
+	border-top: 1px solid #666;
+	padding: 10px 1.5%;
+	height: 25px
+}
+
+.over-article{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: url('./assets/tu-latitud/over-article.png') repeat;
+	display: none;
+	z-index: 10;
+	padding: 10px 1.5%;
+	cursor: pointer;
+}
+
+/*.over-article p{
+	color: #fff;
+	font: 21px/25px 'neutra2displaymedium';
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: normal;
+}*/
+
+.over-article p{
+	font-family: 'sofia_prolight', sans-serif;
+	font-size: 21px;
+	line-height: 25px;
+	color: #fff;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+/*.over-article a.leer-mas{
+	color: #fff;
+	font: 11px/23px 'neutraface2displaybold';
+	text-transform: uppercase;
+	font-weight: normal;
+	display: inline-block;
+	padding-left: 12px;
+	background: url(./assets/tu-latitud/ic-leer-mas.png) left center no-repeat;
+}*/
+
+.over-article a.leer-mas{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 23px;
+	display: inline-block;
+	padding-left: 12px;
+	background: url(./assets/tu-latitud/ic-leer-mas.png) left center no-repeat;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+/**** Transitions ****/
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.3s;
+     -moz-transition-duration: 0.3s;
+      -ms-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+
+
+
+/*NOTAS*/
+
+.nota .info-container{
+	overflow: hidden;
+}
+
+.nota .left-col{
+	float: left;
+}
+
+.nota .right-col{
+	float: right;
+	width: 46%;
+	background: #fff;
+	padding: 10px 1.3% 50px;
+	overflow: hidden;
+	position: relative;
+}
+
+.nota .img-cont{
+	width: 50%;
+}
+
+.nota .img-cont img{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+/*.nota .info-container h3{
+	font-family: 'neutraface2displaybold';
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+	color: #000;
+	text-transform: uppercase;
+	border-bottom: 1px solid #b2b2b2;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+.nota .info-container h3 span{
+	font-size: 32px;
+}*/
+
+.nota .info-container h3{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 30px;
+	color: #000;
+	text-transform: uppercase;
+	border-bottom: 1px solid #b2b2b2;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+
+.nota span.date{
+	color: #000;
+	font: 12px/16px tahoma, arial, helvetica,sans-serif;
+	display: block;
+}
+
+.nota .info-container p{
+	color: #000;
+	margin-bottom: 15px;
+	font: 12px/16px tahoma, arial, helvetica,sans-serif;
+}
+
+ul.ver-mas li {
+	margin-bottom: 3px;
+}
+
+ul.ver-mas li a{
+	background: url('./assets/tu-latitud/ic-nota-ver-mas.jpg') left no-repeat;
+	display: block;
+	color: #004eff;
+	font: 12px/16px tahoma, arial, helvetica,sans-serif;
+	padding-left: 20px;
+	text-decoration: underline;
+}
+
+ul.navigator{
+	overflow: hidden;
+	left: 1.3%;
+	right: 1.3%;
+	position: absolute;
+	bottom: 10px;
+}
+
+ul.navigator li.anterior{
+	float: left;
+}
+
+ul.navigator li.siguiente{
+	float: right;
+}
+
+/*ul.navigator li a{
+	display: block;
+	background: url('./assets/tu-latitud/sp-siguiente-anterior.png') no-repeat;
+	line-height: 19px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'neutraface2displaybold';
+	font-size: 9px;
+	font-weight: normal;
+}*/
+
+ul.navigator li a{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: bold;
+	display: block;
+	background: url('./assets/tu-latitud/sp-siguiente-anterior.png') no-repeat;
+	line-height: 19px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: normal;
+}
+
+ul.navigator li a span{
+	display: block;
+	background: #000;
+	padding: 0 10px;
+}
+
+ul.navigator li.anterior a{
+	background-position: top left;
+	padding-left: 20px;
+}
+
+ul.navigator li.siguiente a{
+	background-position: bottom right;
+	padding-right: 20px;
+}

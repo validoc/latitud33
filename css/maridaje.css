@@ -1,0 +1,282 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+body{
+	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.maridaje .contentPage.principal{
+	background: url('./assets/maridaje/bg-suelo-botella.png') right 350px no-repeat;
+}
+
+/*.contentPage .contenedor h2{
+	font-family: "neutra2displaylight";
+	font-size: 40px;
+	line-height: 44px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+	font-weight: normal;
+}*/
+
+.contentPage .contenedor h2{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+/*.contentPage .contenedor h3,
+.contentPage .contenedor h4{
+	font-family: "neutraface2displaybold";
+	font-size: 18px;
+	line-height: 20px;
+	color: #000;
+	font-weight: normal;
+}*/
+
+.contentPage > .contenedor h3,
+.contentPage > .contenedor h4{
+	font-family: 'sofia_prolight', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #000;
+}
+
+.contentPage > .contenedor h3{
+	font-size: 19px;
+	margin-bottom: 12px;
+}
+
+.contentPage .contenedor h4{
+	margin-bottom: 6px;
+}
+
+/*.contentPage .contenedor p,
+.contentPage .contenedor .left-col .scroll li{
+	font-family: 'neutra2displaymedium';
+	color: #000;
+	font-size: 18px;
+	font-weight: normal;
+}*/
+
+.contentPage > .contenedor p,
+.contentPage > .contenedor .left-col .scroll li{
+	font-family: 'sofia_prolight', sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000;
+}
+
+
+.info-principal{
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.contentPage > .contenedor .left-col {
+	float: left;
+	width: 40%;
+}
+
+.contentPage > .contenedor .left-col .scroll{
+	height: 300px;
+	overflow: auto;
+	padding-right: 20px;
+}
+
+.contentPage > .contenedor .left-col .scroll p,
+.contentPage > .contenedor .left-col .scroll li{
+	margin-bottom: 20px;
+}
+
+/*.contentPage .contenedor .left-col .scroll strong{
+	font-family: "neutraface2displaybold";
+	font-weight: normal;
+}*/
+
+.contentPage > .contenedor .left-col .scroll strong{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: bold;
+}
+
+.scroll .jspDrag{
+	background: #000;
+}
+
+.scroll .jspTrack{
+	background: #bcbcbc;
+}
+
+.contentPage > .contenedor .right-col {
+	float: right;
+	width: 50%;
+	position: relative;
+}
+
+.contentPage > .contenedor .left-col .bloque{
+	margin-bottom: 23px;
+}
+
+.rueda-maridaje-ingreso{
+	position: absolute;
+	width: 110px;
+	padding: 20px 30px 20px;
+	background: #949539;
+	top: 50px;
+	left: 30px;
+}
+
+.rueda-maridaje-ingreso > div{
+    height: 60px;
+    overflow: hidden;
+    -webkit-transition: height .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out;
+    transition: height .5s ease-in-out;
+}
+
+.touch .rueda-maridaje-ingreso > div{
+    height: 170px;
+}
+
+.rueda-maridaje-ingreso > div:hover{
+    height: 170px;
+}
+
+.rueda-maridaje-ingreso:after{
+	content: '';
+	position: absolute;
+	width: 170px;
+	height: 19px;
+	background: url('./assets/maridaje/bg-flag.png') center top no-repeat;
+	bottom: -19px;
+	left: 0;
+}
+
+/*.contentPage .contenedor .rueda-maridaje-ingreso h3{
+	font-size: 21px;
+	line-height: 28px;
+	color: #fff;
+	margin-bottom: 10px;
+	font-family: 'neutra2displaymedium';
+	text-transform: uppercase;
+	font-weight: normal;
+}*/
+
+.contentPage > .contenedor .rueda-maridaje-ingreso h3{
+	font-size: 20px;
+	line-height: 24px;
+	font-family: 'sofia_prolight', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.contentPage > .contenedor .rueda-maridaje-ingreso p{
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.contentPage > .contenedor .rueda-maridaje-ingreso a{
+	font-size: 11px;
+}
+
+.contentPage > .contenedor .rueda-maridaje-ingreso a span{
+	padding: 0 20px 0 12px;
+}
+
+.bloques-container{
+	clear: both;
+	overflow: hidden;
+}
+
+.bloques-container .recetas,
+.bloques-container .videos{
+	height: 126px;
+	width: 48%;
+	position: relative;
+}
+
+.bloques-container .recetas{
+	background: #a53228;
+	float: left;
+}
+
+.bloques-container .videos{
+	background: #b49426;
+	float: right;
+}
+
+.bloques-container .videos img,
+.bloques-container .recetas img{
+	float: left;
+	width: 50%;
+}
+
+.bloques-container .txt{
+	width: 46%;
+	float: right;
+	padding: 9px 1%;
+}
+
+.contentPage > .contenedor .bloques-container h2{
+	font-size: 23px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.contentPage > .contenedor .bloques-container h2,
+.contentPage > .contenedor .bloques-container p{
+	color: #fff
+}
+
+.bloques-container .txt a,
+.bloques-container .txt a span,
+.contentPage > .contenedor .rueda-maridaje-ingreso a,
+.contentPage > .contenedor .rueda-maridaje-ingreso a span{
+	display: block;
+	line-height: 26px;
+	color: #fff
+}
+
+.bloques-container .txt a,
+.contentPage > .contenedor .rueda-maridaje-ingreso a{
+	background: url('./assets/maridaje/bg-links-bloques.png') left no-repeat;
+	padding-left: 28px;
+	text-transform: uppercase;
+}
+
+.bloques-container .txt a span,
+.contentPage > .contenedor .rueda-maridaje-ingreso a span{
+	background: #000;
+}
+
+.bloques-container .txt a{
+	bottom: 12px;
+	left: 53%;
+	position: absolute;
+}
+
+/*.bloques-container .txt a span{
+	padding: 0 20px 0 12px;
+	font-family: 'neutra2displaymedium';
+	font-size: 13px;
+	font-weight: normal;
+}*/
+
+.bloques-container .txt a span{
+	font-family: 'sofia_prolight', sans-serif;
+	font-size: 11px;
+	padding: 0 20px 0 12px;
+}

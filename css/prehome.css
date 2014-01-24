@@ -1,0 +1,130 @@
+
+body{
+	background-image: url("./assets/bg-teaser.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.prehome.contenedor{
+	/*width: 1024px;*/
+	margin: 0 auto;
+	position: relative;
+}
+
+.botella{
+	/*position: absolute;
+	left: 150px;
+	top: -240px;
+	z-index: 0;*/
+}
+
+/*.columnaDerecha{
+	width: 56%;
+	float: right;
+	margin-top: 100px;
+}*/
+
+/** Logo */
+header{
+	margin-bottom: 60px;
+}
+
+header h1,
+header h1 a{
+	display: block;
+	width: 61px;
+	height: 66px;
+}
+
+header h1 a{
+	background: url("./assets/logo.png") no-repeat top left;
+}
+
+/*h2{
+	font-family: "neutra2displaylight";
+	font-weight: normal;
+	font-size: 41px;
+	text-transform: uppercase;
+	width: 68%;
+	display: block;
+	margin-bottom: 20px;
+}
+
+h2 span{
+	font-family: "neutraface2displaybold";
+	font-weight: normal;
+}*/
+
+
+/*.fecha{
+	color: #1e1e1e;
+	text-transform: uppercase;
+	font-family: tahoma;
+	font-size: 16px;
+	width: 55%;
+	padding: 8px 15px;
+	background: #fff;
+}
+*/
+/*.acciones{
+	overflow: hidden;
+	margin: 20px 0 25px 0;
+}*/
+
+.acciones li{
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+}
+
+/*.acciones li a{
+	display: block;
+	width: 46px;
+	height: 46px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-family: "neutraface2displaybold";
+	font-size: 17px;
+	color: #000;
+	font-weight: normal;
+	background: #fff;
+}*/
+
+
+
+/*.acciones li a.primary{
+	background: #b89727;
+	color: #fff;
+}*/
+
+
+/*label[for="recordarme"]{
+	font-family: 'sofia_prolight', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+	top: 2px;
+}
+*/
+input#recordarme{
+	float: left;
+}
+
+.copy p{
+	color: #cacaca;
+	font-size: 11px;
+	line-height: 14px;
+	margin-bottom: 15px;
+}
+
+/*p.no-permitido{
+	font: 19px/22px tahoma, arial, helvetica, sans-serif;
+	color: #d0ab2c;
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}*/

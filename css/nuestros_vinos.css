@@ -1,0 +1,545 @@
+@media only screen and (min-width: 320px) {
+  header nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header nav {
+    display: block;
+  }
+}
+
+.nuestros-vinos {
+  background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud {
+    margin-top: 0;
+    height: 1114px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .nuestros-vinos .latitud {
+    margin-top: 30px;
+  }
+}
+
+.nuestros-vinos .latitud .contenedor {
+  background: url("./assets/nuestros-vinos/bg-contenedor-latitud.png") no-repeat top right;
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor {
+    background-image: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .latitud .contenedor {
+    background: url("./assets/nuestros-vinos/bg-contenedor-latitud.png") no-repeat top right;
+  }
+}
+
+.nuestros-vinos .latitud .contenedor .banner {
+  height: 108px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor .banner {
+    background: url("../img/responsive/nuestros_vinos_top.jpg") no-repeat top right;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .nuestros-vinos .latitud .contenedor .banner {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor .bloque1 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 108px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .latitud .contenedor .bloque1 {
+    top: 190px;
+    width: 379px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor .bloque1 p {
+    margin: 0 0 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .latitud .contenedor .bloque1 p {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor .bloque1 .ir-abajo {
+    position: static;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .latitud .contenedor .bloque1 .ir-abajo {
+    position: absolute;
+  }
+}
+
+.nuestros-vinos .latitud .contenedor .banner2 {
+  height: 255px;
+  position: absolute;
+  right: 0;
+  top: 419px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor .banner2 {
+    background: url("../img/responsive/latitud33.jpg") no-repeat top right;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .nuestros-vinos .latitud .contenedor .banner2 {
+    display: none;
+  }
+}
+
+.nuestros-vinos .latitud .contenedor .banner3 {
+  height: 246px;
+  position: absolute;
+  right: 0;
+  top: 868px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor .banner3 {
+    background: url("../img/responsive/latitud33_2.jpg") no-repeat top right;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .nuestros-vinos .latitud .contenedor .banner3 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor .bloque2 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    right: 0;
+    top: 674px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .latitud .contenedor .bloque2 {
+    top: 615px;
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor .bloqueBlanco {
+    padding: 25px 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .latitud .contenedor .bloqueBlanco {
+    padding: 28px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .latitud .contenedor .ir-abajo {
+    position: static;
+    margin: 25px 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .latitud .contenedor .ir-abajo {
+    position: absolute;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-origen {
+    background: #fff;
+    color: #000;
+    height: 1890px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .nuestros-vinos .el-origen {
+    height: 768px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-origen .contenedor {
+    height: 1890px;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-origen .contenedor {
+    padding: 0 10px;
+    height: 768px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-origen .contenedor article {
+    background: #fff;
+    color: #000;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-origen .contenedor article {
+    width: 31.3%;
+  }
+}
+
+.nuestros-vinos .el-origen .contenedor article h3 {
+  color: #fff;
+  background: #be2f2a;
+  display: inline-block;
+  padding: 5px 12px;
+}
+
+.nuestros-vinos .el-origen .contenedor article img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .la-creacion {
+    background: #fff;
+    color: #000;
+    height: 950px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .la-creacion {
+    background-image: url("./assets/nuestros-vinos/bg-la-creacion.jpg");
+    color: #fff;
+    height: 578px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .la-creacion .contenedor {
+    height: 950px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .la-creacion .contenedor {
+    height: 578px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .la-creacion .contenedor article {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .la-creacion .contenedor article {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .la-creacion .contenedor article .ir-abajo {
+    position: static;
+    margin: 25px 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .la-creacion .contenedor article .ir-abajo {
+    position: absolute;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .la-creacion .contenedor h2 {
+    border-bottom: 2px solid #bc180c;
+    line-height: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .la-creacion .contenedor h2 {
+    border: none;
+    padding-bottom: 0;
+  }
+}
+
+.nuestros-vinos .la-creacion-banner {
+  background-image: url("../img/responsive/la-creacion_320.jpg");
+  background-position: right top;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 208px;
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .la-creacion-banner {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .la-creacion-banner {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-vino {
+    background: none;
+    height: 900px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-vino {
+    background: url("./assets/nuestros-vinos/bg-el-vino.jpg") right top no-repeat;
+    height: 1100px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-vino .contenedor {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-vino .contenedor {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-vino .contenedor .bloqueBlanco {
+    padding: 25px 18px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-vino .contenedor .bloqueBlanco {
+    padding: 28px;
+    width: 52%;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-vino .contenedor .bloqueBlanco h2 {
+    border-bottom: 2px solid #bc180c;
+    line-height: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-vino .contenedor .bloqueBlanco h2 {
+    border: none;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-vino .contenedor .bloqueBlanco .ir-abajo {
+    position: static;
+    margin: 25px 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-vino .contenedor .bloqueBlanco .ir-abajo {
+    position: absolute;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-vino .contenedorDetalleVino {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-vino .contenedorDetalleVino {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-vino nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-vino nav {
+    display: block;
+  }
+}
+
+.nuestros-vinos .el-vino figure {
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.nuestros-vinos .el-vino-banner {
+  background: url("./assets/nuestros-vinos/bg-el-vino.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 254px;
+}
+
+@media only screen and (min-width: 320px) {
+  .nuestros-vinos .el-vino-banner {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nuestros-vinos .el-vino-banner {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  footer .contenedor nav {
+    float: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  footer .contenedor nav {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  footer .contenedor nav ul.links a {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  footer .contenedor nav ul.links a {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  footer .contenedor nav .social {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  footer .contenedor nav .social {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  footer .contenedor p {
+    font-size: 8px;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  footer .contenedor p {
+    font-size: 11px;
+    text-transform: none;
+  }
+}
+
+.content-mobile {
+  padding: 25px 18px;
+}
+
+@media only screen and (min-width: 320px) {
+  .mobileoff {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobileoff {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .mobileon {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobileon {
+    display: none;
+  }
+}

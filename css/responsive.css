@@ -1,0 +1,207 @@
+@media only screen and (min-width: 320px) {
+  .prehome {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome {
+    margin: 0 auto;
+    max-width: 1024px;
+    min-width: 960px;
+    padding: 0 10px;
+    position: relative;
+    width: 1024px;
+  }
+}
+.prehome .content_prehome {
+  display: block;
+  position: relative;
+}
+.prehome .content_prehome .botella {
+  float: left;
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .botella {
+    display: block;
+    left: -2px;
+    margin: -128px 0 0;
+    width: 150px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .botella {
+    left: 150px;
+    margin: -240px 0 0;
+    width: 255px;
+    z-index: 0;
+  }
+}
+.prehome .content_prehome .columnaDerecha {
+  float: right;
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .columnaDerecha {
+    margin-top: 110px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .columnaDerecha {
+    margin-top: 100px;
+    width: 56%;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .columnaDerecha section hr {
+    display: none;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .columnaDerecha section hr {
+    display: block;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .columnaDerecha section h2 {
+    font-family: 'sofia_prolight', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .columnaDerecha section h2 {
+    font-size: 50px;
+    line-height: 55px;
+    width: 68%;
+  }
+}
+.prehome .content_prehome .columnaDerecha section h2 span {
+  font-weight: bold;
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .columnaDerecha section .fecha {
+    color: #1e1e1e;
+    text-transform: uppercase;
+    font-family: tahoma;
+    font-size: 10px;
+    width: 80%;
+    padding: 8px 8px;
+    background: #fff;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .columnaDerecha section .fecha {
+    font-size: 16px;
+    padding: 8px 15px;
+    width: 55%;
+  }
+}
+.prehome .content_prehome .columnaDerecha section .acciones {
+  overflow: hidden;
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .columnaDerecha section .acciones {
+    margin: 20px 0 10px 0;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .columnaDerecha section .acciones {
+    margin: 20px 0 25px 0;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .columnaDerecha section .acciones li a {
+    background: #fff;
+    color: #000;
+    display: block;
+    font-family: 'sofia_prolight', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 30px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .columnaDerecha section .acciones li a {
+    font-size: 17px;
+    height: 46px;
+    width: 46px;
+  }
+}
+.prehome .content_prehome .columnaDerecha section .acciones li a.primary {
+  background: #b89727;
+  color: #fff;
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .columnaDerecha section label {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'sofia_prolight', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+    text-transform: uppercase;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .columnaDerecha section label {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .columnaDerecha section .no-permitido {
+    color: #d0ab2c;
+    display: none;
+    font-size: 12px;
+    font-family: tahoma, arial, helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .columnaDerecha section .no-permitido {
+    font-size: 19px/22px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .prehome .content_prehome .columnaDerecha section .copy {
+    display: none;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .content_prehome .columnaDerecha section .copy {
+    display: block;
+  }
+}
+.prehome .copy_mobile {
+  background: #000;
+  font-size: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #595959;
+  margin: 10px 0 0 0;
+  padding: 10px 15px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+@media only screen and (min-width: 320px) {
+  .prehome .copy_mobile {
+    display: block;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .prehome .copy_mobile {
+    display: none;
+  }
+}
+.clearfix {
+  clear: both;
+}

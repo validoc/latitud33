@@ -1,0 +1,147 @@
+@import 'nib'
+
+desktopNote = "only screen and (min-width: 1024px)"
+desktop 	= "only screen and (min-width: 960px)"
+ipadP 		= "only screen and (min-width: 768px)"
+tablet 		= "only screen and (min-width: 600px)"
+iphone5L 	= "only screen and (min-width: 568px)"
+iphone4L 	= "only screen and (min-width: 420px)"
+iphoneP 	= "only screen and (min-width: 320px)"
+
+.prehome
+	@media iphoneP
+		width 100%
+	@media desktop
+		margin 0 auto
+		max-width 1024px
+		min-width 960px
+		padding 0 10px
+		position relative
+		width 1024px
+	.content_prehome
+		display block 
+		position relative 
+		.botella
+			float left
+			@media iphoneP
+				display block
+				left -2px
+				margin -128px 0 0
+				width 150px 
+			@media desktop
+				left 150px
+				margin -240px 0 0
+				width 255px
+				z-index 0
+		.columnaDerecha
+			float right
+			@media iphoneP
+				margin-top: 110px;
+				width 50%
+			@media desktop
+				margin-top: 100px;
+				width 56%
+			section
+				hr
+					@media iphoneP
+						display none
+					@media desktop
+						display block 
+				h2
+					@media iphoneP
+						font-family 'sofia_prolight', sans-serif
+						font-size 18px 
+						text-transform uppercase
+						display block
+						margin-bottom 20px
+					@media desktop
+						font-size 50px
+						line-height 55px
+						width 68%
+					span
+						font-weight bold 
+				.fecha
+					@media iphoneP
+						color #1e1e1e
+						text-transform uppercase
+						font-family tahoma
+						font-size 10px
+						width 80%
+						padding 8px 8px
+						background #fff
+					@media desktop
+						font-size 16px
+						padding 8px 15px
+						width 55%
+				.acciones
+					overflow hidden
+					@media iphoneP
+						margin 20px 0 10px 0 
+					@media desktop
+						margin 20px 0 25px 0 
+					li
+						a
+							@media iphoneP
+								background #fff
+								color #000
+								display block
+								font-family 'sofia_prolight', sans-serif
+								font-weight bold
+								font-size 12px
+								height 30px
+								line-height 30px
+								text-transform: uppercase
+								text-align center
+								width 30px
+							@media desktop
+								font-size 17px
+								height 46px
+								width 46px
+							&.primary
+								background #b89727
+								color #fff
+				label
+					@media iphoneP
+						color #fff
+						cursor pointer
+						font-family 'sofia_prolight', sans-serif
+						font-size 10px;
+						font-weight bold
+						position relative
+						top 2px
+						text-transform uppercase
+					@media desktop
+						
+						font-size: 15px;
+				.no-permitido
+					@media iphoneP
+						color #d0ab2c
+						display none
+						font-size 12px
+						font-family tahoma, arial, helvetica, sans-serif
+						margin-top 20px
+						margin-bottom 20px
+					@media desktop
+						font-size 19px/22px 
+				.copy
+					@media iphoneP
+						display none 
+					@media desktop
+						display block
+	.copy_mobile
+		background #000
+		font-size 10px 
+		box-sizing border-box
+		color #595959
+		margin 10px 0 0 0 
+		padding 10px 15px 
+		position relative 
+		text-align center
+		width 100%  
+		@media iphoneP
+			display block 
+		@media desktop
+			display none
+// common
+.clearfix
+	clear both

@@ -1,0 +1,243 @@
+
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+body{
+	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contentPage > .contenedor{
+	position: relative;
+	background: url("./assets/elaboracion/bg.png") top right no-repeat;
+}
+
+/*.contentPage > .contenedor h2 {
+	font-family: "neutra2displaylight";
+	font-size: 40px;
+	line-height: 44px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+	font-weight: normal;
+}
+
+.lt-ie9 .contentPage > .contenedor h2{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+}*/
+
+.contentPage > .contenedor h2{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+/*.contentPage > .contenedor p {
+	font-family: 'neutra2displaymedium';
+	color: #000;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: normal;
+}*/
+
+.contentPage > .contenedor p {
+	font-family: 'sofia_prolight', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+}
+
+/*.contentPage > .contenedor p strong{
+	font-family: 'neutraface2displaybold';
+	font-weight: normal;
+}*/
+
+.contentPage > .contenedor p strong{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: bold;
+}
+
+.contentPage > .contenedor > p {
+	margin-bottom: 20px;
+	width: 40%;
+}
+
+
+/*.contentPage > .contenedor h3 {
+	font-family: 'neutra2displaymedium';
+	color: #000;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 22px;
+	margin-bottom: 20px;
+	font-weight: normal;
+}*/
+
+.contentPage > .contenedor h3 {
+	font-family: 'sofia_prolight', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+
+.vinos-blancos-container{
+	display: none;
+}
+
+.filter-container{
+	margin-bottom: 67px;
+}
+
+.filter-container li{
+	float: left;
+	margin-right: 36px;
+}
+
+/*.filter-container li a {
+	font-family: "neutraface2displaybold";
+	font-size: 14px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000;
+	background: url('./assets/elaboracion/bg-filters.png') top right no-repeat;
+	padding-right: 36px;
+	display: inline-block;
+	font-weight: normal;
+}
+
+.lt-ie9 .filter-container li a {
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}*/
+
+.filter-container li a {
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000;
+	background: url('./assets/elaboracion/bg-filters.png') top right no-repeat;
+	padding-right: 36px;
+	display: inline-block;
+}
+
+.filter-container li a span{
+	padding-right: 35px;
+	padding-left: 12px;
+	display: inline-block;
+	background: #fff;
+}
+
+.filter-container li a.active {
+	color: #fff;
+	background-position: bottom right;
+	padding-right: 36px;
+	display: inline-block;
+}
+
+.filter-container li a.active span{
+	background: #000;
+}
+
+.vinos-container{
+	overflow: hidden;
+}
+
+.vinos-container li{
+	width: 10.37%;
+	float: left;
+	margin-right: 0.75%;
+	padding-top: 33px;
+}
+
+.vinos-container li.last{
+	margin-right: 0;
+}
+
+.vinos-container li img,
+.vinos-container li a{
+	display: block;
+}
+
+/*.vinos-container li a{
+	font-family: "neutraface2displaybold";
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #afafaf;
+}*/
+
+.vinos-container li a{
+	font-family: 'sofia_prolight', sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #afafaf;
+}
+
+.vinos-container li img{
+	margin-bottom: 16px;
+	border-bottom: 7px solid #afafaf;
+	width: 100%;
+	height: auto;
+}
+
+.vinos-container li > p{
+	display: none;
+	position: absolute;
+	top: 31px;
+	left: 0;
+	right: 0;
+	background: #000;
+	color: #fff !important;
+	line-height: 66px;
+	padding: 0 12px;
+}
+
+.vinos-container li.active{
+	background: url('./assets/elaboracion/ic-active.png') center top no-repeat;
+}
+
+.vinos-tintos-container li.active a{
+	color: #910d00;
+}
+
+.vinos-tintos-container li.active img{
+	border-bottom: 7px solid #910d00;
+}
+
+.vinos-blancos-container li.active a{
+	color: #c0ac27;
+}
+
+.vinos-blancos-container li.active img{
+	border-bottom: 7px solid #c0ac27;
+}
+
+.vinos-container li.active > p{
+	display:block;
+	height: 66px;
+	line-height: 30px;
+	font-size: 16px;
+}
