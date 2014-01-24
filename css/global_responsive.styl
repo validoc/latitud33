@@ -1,0 +1,59 @@
+@import 'nib'
+
+desktopNote = "only screen and (min-width: 1024px)"
+desktop 	= "only screen and (min-width: 960px)"
+ipadP 		= "only screen and (min-width: 768px)"
+tablet 		= "only screen and (min-width: 600px)"
+iphone5L 	= "only screen and (min-width: 568px)"
+iphone4L 	= "only screen and (min-width: 420px)"
+iphoneP 	= "only screen and (min-width: 320px)"
+
+header
+	nav
+		@media iphoneP
+			display none
+		@media ipadP
+			display block 
+footer
+	.contenedor
+		@media iphoneP
+			height 72px
+		@media ipadP
+			height 44px
+		nav
+			@media iphoneP
+				float none
+			@media ipadP
+				float right
+				
+			ul.links
+				a
+					@media iphoneP
+						font-size 10px
+					@media ipadP 
+						font-size 11px
+			.social
+				@media iphoneP
+					display none 
+				@media ipadP
+					display block
+		p
+			@media iphoneP
+				font-size 8px 
+				text-transform uppercase 
+			@media ipadP
+				font-size 11px
+				text-transform none 
+	
+.content-mobile
+	padding 25px 18px
+.mobileoff
+	@media iphoneP
+		display none
+	@media ipadP
+		display block
+.mobileon
+	@media iphoneP
+		display block
+	@media ipadP
+		display none

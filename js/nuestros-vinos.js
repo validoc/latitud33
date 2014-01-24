@@ -505,9 +505,9 @@
         $('.la-creacion .contenedor article .scroll').removeClass('scroll').addClass('content-mobile');
     }
 
-    $("#menu").mmenu({
-        classes: "mm-slide"
-    });
+    // $("#menu").mmenu({
+    //     classes: "mm-slide"
+    // });
 
 })(window);
 

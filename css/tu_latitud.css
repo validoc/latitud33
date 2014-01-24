@@ -1,0 +1,11 @@
+@media only screen and (min-width: 320px) {
+  .articles article {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .articles article {
+    width: 30%;
+  }
+}
