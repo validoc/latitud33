@@ -1,0 +1,71 @@
+.contenedor figure img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  .contenedor .left-col {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor .left-col {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .contenedor .right-col {
+    background: none;
+    float: none;
+    min-height: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor .right-col {
+    background-image: url("./assets/cepas/fd_cepas-principal.png");
+    float: left;
+    min-height: 566px;
+    width: 507px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .contenedor .right-col dl {
+    position: static;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor .right-col dl {
+    position: absolute;
+    width: 160px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .contenedor .right-col dl.sauvignon-blanc {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor .right-col dl.sauvignon-blanc {
+    width: 205px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .contenedor .right-col dl.cabernet-sauvignon {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor .right-col dl.cabernet-sauvignon {
+    width: 225px;
+  }
+}

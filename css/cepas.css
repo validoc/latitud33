@@ -104,9 +104,10 @@ body{
 
 .contentPage > .contenedor .right-col {
 	float: right;
-	background: url('./assets/cepas/fd_cepas-principal.png') center no-repeat;
-	min-width: 507px;
-	min-height: 566px;
+	/*background-image: url('./assets/cepas/fd_cepas-principal.png');*/
+	background-repeat: no-repeat;
+	/*width: 507px;*/
+	/*min-height: 566px;*/
 	position: relative;
 }
 
@@ -115,14 +116,14 @@ body{
 }
 
 .contentPage > .contenedor .right-col dl{
-	position: absolute;
-	width: 160px;
+	/*position: absolute;*/
+	/*width: 160px;*/
 }
 
 .contentPage > .contenedor .right-col dl.sauvignon-blanc{
 	top: 30px;
 	left: 40px;
-	width: 205px;
+	/*width: 205px;*/
 }
 
 .contentPage > .contenedor .right-col dl.tempranillo{
@@ -153,7 +154,7 @@ body{
 .contentPage > .contenedor .right-col dl.cabernet-sauvignon{
 	top: 214px;
 	right: 60px;
-	width: 225px;
+	/*width: 225px;*/
 }
 
 .contentPage > .contenedor .right-col dl.merlot{

@@ -1,0 +1,62 @@
+figure {
+  width: 100%;
+  height: 225px;
+  overflow: hidden;
+  position: relative;
+}
+
+figure img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 320px) {
+  .contenedor .right-col {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor .right-col {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .contenedor .left-col {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor .left-col {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .contenedor .left-col dl {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor .left-col dl {
+    width: 245px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .contenedor .left-col h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor .left-col h2 {
+    font-size: 36px;
+    text-align: left;
+  }
+}

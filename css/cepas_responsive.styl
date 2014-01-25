@@ -1,0 +1,53 @@
+@import 'nib'
+
+desktopNote = "only screen and (min-width: 1024px)"
+desktop 	= "only screen and (min-width: 960px)"
+ipadP 		= "only screen and (min-width: 768px)"
+tablet 		= "only screen and (min-width: 600px)"
+iphone5L 	= "only screen and (min-width: 568px)"
+iphone4L 	= "only screen and (min-width: 420px)"
+iphoneP 	= "only screen and (min-width: 320px)"
+
+.contenedor
+	figure
+		img
+			width 100% 
+	.left-col
+		@media iphoneP
+			// float none
+			// width 100% 
+			display none
+		@media ipadP
+			// float left
+			// width 40%
+			display block
+	.right-col
+		@media iphoneP
+			background none 
+			// background-size 100%  
+			float none
+			min-height auto
+			width 100% 
+		@media ipadP
+			background-image url('./assets/cepas/fd_cepas-principal.png')
+			float left
+			min-height 566px
+			width 507px
+		dl
+			@media iphoneP
+				position static
+				width 100%
+			@media ipadP
+				position absolute
+				width 160px
+			&.sauvignon-blanc
+				@media iphoneP
+					width 100% 
+				@media ipadP
+					width 205px 
+			&.cabernet-sauvignon
+				@media iphoneP
+					width 100% 
+				@media ipadP
+					width 225px 
+					
